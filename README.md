@@ -10,7 +10,7 @@ is to customise the configuration and to start electrumx.
 ## Usage
 This installs electrumx using the default options:
 
-    wget https://raw.githubusercontent.com/litebitcoins/electrumx-installer/master/bootstrap.sh -O - | bash
+    wget https://raw.githubusercontent.com/mraksoll4/electrumx-installer/master/bootstrap.sh -O - | bash
 
 You can also set some options if you want more control:
 
@@ -21,7 +21,7 @@ You can also set some options if you want more control:
 
 For example:
 
-    wget https://raw.githubusercontent.com/litebitcoins/electrumx-installer/master/bootstrap.sh -O - | bash -s - -d /media/ssd/electrum-db
+    wget https://raw.githubusercontent.com/mraksoll4/electrumx-installer/master/bootstrap.sh -O - | bash -s - -d /media/ssd/electrum-db
 
      
 ## Operating System Compatibility
@@ -30,12 +30,12 @@ The following operating systems are officially supported and automatically being
 
 | OS | Status |
 |----------|---:|
-| Debian Jessie  | [![debian](https://badges.herokuapp.com/travis/litebitcoins/electrumx-installer?env=IMAGE=%22debian:8%22&label=debian:8)](https://travis-ci.org/litebitcoins/electrumx-installer/) |
-| Ubuntu 16.04   | [![ubuntu](https://badges.herokuapp.com/travis/litebitcoins/electrumx-installer?env=IMAGE=%22ubuntu:16.04%22&label=ubuntu:16.04)](https://travis-ci.org/litebitcoins/electrumx-installer/) |
-| CentOS 7       | [![centos](https://badges.herokuapp.com/travis/litebitcoins/electrumx-installer?env=IMAGE=%22centos:7%22&label=centos:7)](https://travis-ci.org/litebitcoins/electrumx-installerbauerj/electrumx-installer/) |
-| Debian Stretch | [![debian](https://badges.herokuapp.com/travis/litebitcoins/electrumx-installer?env=IMAGE=%22debian:9%22&label=debian:9)](https://travis-ci.org/litebitcoins/electrumx-installer/) |
+| Debian Jessie  | [![debian](https://badges.herokuapp.com/travis/mraksoll4/electrumx-installer?env=IMAGE=%22debian:8%22&label=debian:8)](https://travis-ci.org/mraksoll4/electrumx-installer/) |
+| Ubuntu 16.04   | [![ubuntu](https://badges.herokuapp.com/travis/mraksoll4/electrumx-installer?env=IMAGE=%22ubuntu:16.04%22&label=ubuntu:16.04)](https://travis-ci.org/mraksoll4/electrumx-installer/) |
+| CentOS 7       | [![centos](https://badges.herokuapp.com/travis/mraksoll4/electrumx-installer?env=IMAGE=%22centos:7%22&label=centos:7)](https://travis-ci.org/mraksoll4/electrumx-installerbauerj/electrumx-installer/) |
+| Debian Stretch | [![debian](https://badges.herokuapp.com/travis/mraksoll4/electrumx-installer?env=IMAGE=%22debian:9%22&label=debian:9)](https://travis-ci.org/mraksoll4/electrumx-installer/) |
 
 
 If you prefer a different operating system that's not listed here, see
-[`distributions/README.md`](https://github.com/litebitcoins/electrumx-installer/blob/master/distributions/README.md) to find out how to add it.
-Or open an [issue](https://github.com/litebitcoins/electrumx-installer/issues/new) if you'd rather not do that yourself.
+[`distributions/README.md`](https://github.com/mraksoll4/electrumx-installer/blob/master/distributions/README.md) to find out how to add it.
+Or open an [issue](https://github.com/mraksoll4/electrumx-installer/issues/new) if you'd rather not do that yourself.

@@ -15,7 +15,7 @@ function install_electrumx {
 	_DIR=$(pwd)
         python3 -m pip install multidict || true
 	rm -rf "/tmp/electrumx/"
-	git clone https://github.com/litebitcoins/electrumx /tmp/electrumx
+	git clone https://github.com/mraksoll4/electrumx /tmp/electrumx
 	cd /tmp/electrumx
 	if [ $USE_ROCKSDB == 1 ]; then
 		# We don't necessarily want to install plyvel
